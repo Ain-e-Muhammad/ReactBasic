@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ain-e-Muhammad/reactbasics/static/css/main.e2a7d8b9.chunk.css",
+    "main.js": "/Ain-e-Muhammad/reactbasics/static/js/main.dbb6eaa6.chunk.js",
+    "main.js.map": "/Ain-e-Muhammad/reactbasics/static/js/main.dbb6eaa6.chunk.js.map",
+    "runtime-main.js": "/Ain-e-Muhammad/reactbasics/static/js/runtime-main.dc7b45bf.js",
+    "runtime-main.js.map": "/Ain-e-Muhammad/reactbasics/static/js/runtime-main.dc7b45bf.js.map",
+    "static/js/2.339b2d3a.chunk.js": "/Ain-e-Muhammad/reactbasics/static/js/2.339b2d3a.chunk.js",
+    "static/js/2.339b2d3a.chunk.js.map": "/Ain-e-Muhammad/reactbasics/static/js/2.339b2d3a.chunk.js.map",
+    "static/js/3.24d36cfe.chunk.js": "/Ain-e-Muhammad/reactbasics/static/js/3.24d36cfe.chunk.js",
+    "static/js/3.24d36cfe.chunk.js.map": "/Ain-e-Muhammad/reactbasics/static/js/3.24d36cfe.chunk.js.map",
+    "index.html": "/Ain-e-Muhammad/reactbasics/index.html",
+    "static/css/main.e2a7d8b9.chunk.css.map": "/Ain-e-Muhammad/reactbasics/static/css/main.e2a7d8b9.chunk.css.map",
+    "static/js/2.339b2d3a.chunk.js.LICENSE.txt": "/Ain-e-Muhammad/reactbasics/static/js/2.339b2d3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc7b45bf.js",
+    "static/js/2.339b2d3a.chunk.js",
+    "static/css/main.e2a7d8b9.chunk.css",
+    "static/js/main.dbb6eaa6.chunk.js"
+  ]
+}
