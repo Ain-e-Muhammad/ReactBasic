@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import CardList from './components/card-list/card-list.component'
 
 class App extends Component{
+  //The state of monsters we have to display
   constructor(){
     super()
     this.state = {
@@ -9,20 +11,19 @@ class App extends Component{
     }
   }
 
+  //Fetchinf ata using Async Promises
   async componentDidMount(){
     const res = await fetch("https://jsonplaceholder.typicode.com/users")
     const monsters = await res.json()
-    this.setState({monsters })
+    this.setState({monsters})
   }
 
   render(){
     return(
       <div className="App">
-        {
-          this.state.monsters.map( (monster) => 
-            <h1 key={monster.id}>{monster.name}</h1>
-          )
-        }
+        <CardList monsters={this.state.monsters}>
+        
+        </CardList>
       </div>
     )
   }
