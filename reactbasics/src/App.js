@@ -11,21 +11,19 @@ class App extends Component{
     }
   }
 
-  //Fetchinf ata using Async Promises
+  //Fetching data using Async Promises
   async componentDidMount(){
     const res = await fetch("https://jsonplaceholder.typicode.com/users")
     const monsters = await res.json()
-    this.setState({monsters})
+   this.setState({monsters})
   }
 
   render(){
-    return(
+    return (
       <div className="App">
-        <CardList monsters={this.state.monsters}>
-        
-        </CardList>
+        <CardList monsters={this.state.monsters}/>
       </div>
-    )
+    );
   }
   changeText = () => {
     this.setState({string: "Hello Ali"})
